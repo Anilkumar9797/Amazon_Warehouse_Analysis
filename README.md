@@ -85,16 +85,18 @@ Check the outputs/ folder – charts, heatmaps, and CSV recommendations will be 
 Explore the visuals and CSVs to analyze warehouse performance and optimal picker allocation.
 
 Project Structure
-Amazon_Warehouse_Project/
+Amazon_Warehouse_Analysis/
 │
-├── Amazon_warehouse.py
-├── staffing_levels.csv
-├── picking_activity.csv
-├── order_flow.csv
-├── outputs/        # Created after running the script
+├── outputs/                  # Created after running the script
 │   ├── w2s_per_hour.png
 │   ├── late_pick_rate.png
 │   ├── backlog_plot.png
 │   ├── heatmap_w2s.png
 │   └── collapse_hours_optimal_pickers.csv
-└── README.md
+├── Amazon_warehouse.py
+├── Amazon_warehouse_project/ # Optional folder if used
+├── LICENSE
+├── README.md
+├── order_flow.csv.zip         # Unzip before running
+├── picking_activity.csv
+└── staffing_levels.csv
