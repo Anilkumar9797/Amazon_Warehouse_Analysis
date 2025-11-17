@@ -77,19 +77,22 @@ This project uses sample Amazon warehouse datasets, including:
 
 
 
-## Project Structure
+## 📁 Project Structure
+````
 Amazon_Warehouse_Analysis/
 │
-├── outputs/                  # Created after running the script
-│   ├── w2s_per_hour.png
-│   ├── late_pick_rate.png
-│   ├── backlog_plot.png
-│   ├── heatmap_w2s.png
-│   └── collapse_hours_optimal_pickers.csv
-├── Amazon_warehouse.py
-├── Amazon_warehouse_project/ # Optional folder if used
-├── LICENSE
-├── README.md
-├── order_flow.csv.zip         # Unzip before running
-├── picking_activity.csv
-└── staffing_levels.csv
+📂 outputs/                                (Created after running script)
+├── 📊 w2s_per_hour.png
+├── 📈 late_pick_rate.png
+├── 📉 backlog_plot.png
+├── 🗺️ heatmap_w2s.png
+└── 📄 collapse_hours_optimal_pickers.csv
+
+📜 Amazon_warehouse.py                     (Main analysis script)
+📁 Amazon_warehouse_project/               (Optional folder)
+📋 LICENSE
+📖 README.md
+🗜️ order_flow.csv.zip                     (Unzip before running)
+📊 picking_activity.csv
+📊 staffing_levels.csv
+````
