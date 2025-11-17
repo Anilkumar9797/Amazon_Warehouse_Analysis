@@ -77,7 +77,7 @@ This project uses sample Amazon warehouse datasets, including:
 
 
 
-Project Structure
+## Project Structure
 Amazon_Warehouse_Analysis/
 │
 ├── outputs/                  # Created after running the script
