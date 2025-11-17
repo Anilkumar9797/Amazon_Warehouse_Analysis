@@ -74,16 +74,6 @@ This project uses sample Amazon warehouse datasets, including:
 
 ---
 
-## How to Use
-1. Make sure all CSV files are in the project folder.  
-2. Run the script:
-
-```bash
-python Amazon_warehouse.py
-Check the outputs/ folder – charts, heatmaps, and CSV recommendations will be saved there.
-
-Explore the visuals and CSVs to analyze warehouse performance and optimal picker allocation.
-
 Project Structure
 Amazon_Warehouse_Analysis/
 │
